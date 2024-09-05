@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Raleway; */
+/* font-family: "Open Sans"; */
+
+
+/* global css */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* font-family: "Raleway; */
+    /* font-family: "Open Sans"; */
+}
+/* navbar css */
+.navbar{
+    background-color:#000000;
+    width: 100%;
+    height: 10vh;
+}
+.navbar img{
+    width: 40%;
+}
+.navbar .nav-item .nav-link{
+    font-family: "Open Sans";
+    font-size: 15px;
+    color: white !important;
+    font-weight: 500;
+    margin-left: 30px;
+}
+/* banner-section css */
+.banner-section{
+    width: 100%;
+    height: 90vh;
+    background: url(banner.png) center center no-repeat;
+    opacity: 0.35 black;
+    background-size: cover;
+}
+.banner-section .left-b img{
+    padding: 120px 0px 30px ;
+}
+.banner-section .left-b h1{
+    width: 92%;
+    font-family: "Raleway";
+    font-size: 40px;
+    color:white ;
+    font-weight: 400 !important;
+    padding-bottom:20px ;
+}
+.banner-section .underline {
+    width: 60px;
+    margin: 0px 0px;
+    background: #ffffff;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+
+.banner-section:hover .underline {
+    width: 150px;
+    margin: 0px 0px;
+    background: #ffffff;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+.banner-section .left-b p{
+    width: 80%;
+    font-family: "Raleway";
+    color:white ;
+    font-weight: 100 !important;
+    padding: 30px 0px 30px;
+}
+.banner-section .left-b .b-btn a{
+    font-family: "Open Sans";
+    color:white ;
+    font-weight: 500 !important;
+    text-decoration: none;
+    border: 2px solid #ffff;
+    padding: 8px 27px;
+    transition: 0.5s;
+}
+.banner-section .left-b .b-btn a:hover{
+    font-family: "Open Sans";
+    color:white ;
+    font-weight: 500 !important;
+    background-color: #f8a86b;
+    text-decoration: none;
+    border: 2px solid #f8a86b;
+    padding: 8px 27px;
+    transition: 0.5s;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+    top: -25px;
+  }
+  
+  input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: 1px solid #ccc;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  
+  input[type=submit] {
+    position: relative;
+    width: 382px;
+    background-color: #ff9b51;
+    color: white;
+    padding: 14px 50px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px 0px 4px 4px;
+    cursor: pointer;
+    left: -40px;
+    top: 1px;
+    transition: 0.5s;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #f8a86b;
+    transition: 0.5s;
+  }
+  
+.right-b{
+    width: 60%;
+    height: 50vh;
+    border-radius: 5px;
+    background-color: white;
+    padding: 40px;
+    margin-left: 246px;
+    margin-top: 120px;
+  }
+  .titlex{
+    width: 382px;
+    height: 10vh;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #f5f5f5;
+    position: relative;
+    left: -40px;
+    top: -40px;
+  }
+
+.titlex span{
+    color: #ff9b51;
+}
+.titlex h3{
+    width: 101%;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 22px;
+    /* letter-spacing: 1px; */
+    word-spacing: 1px;
+}
+/* s media css */
+.s-media{
+    width: 100%;
+    border-bottom: #cccccc;
+}
+.inner-s h5{
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    padding-top: 15px;
+}
+.inner-s p{
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #cccccc;
+    width: 115%;
+    padding: 0px 2px;
+}
+.innerp img{
+    margin-top: 15px;
+    margin-left: 205px;
+}
